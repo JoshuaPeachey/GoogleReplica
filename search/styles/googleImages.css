@@ -1,0 +1,12 @@
+.google-image-logo {
+    position: relative;
+    text-align: center;
+}
+
+.span-images {
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 83px;
+
+    color: rgb(53, 53, 241);
+}

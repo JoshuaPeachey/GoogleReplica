@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google Advanced Search</title>
+		<link rel="icon" href="images/google-logo.png">
+    	<link rel="stylesheet" href="styles\index.css">
+		<link rel="stylesheet" href="styles\advancedSearch.css" >
+		<link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+  </head>
+  <body>
+    <div>
+			<img class="logo-small" src="images\googlelogo_color_272x92dp.png">
+			<nav class="nav-links">
+				<a href="index.html">Google</a>
+				<a href="googleImages.html">Google Images</a>
+			</nav>
+    </div>
+
+		<h1 id="title">Advanced Search</h1>
+		<form class="advanced-search-form" action="https://www.google.com/search">
+			<div class="search-input-div">
+				<span class="input-column-title-left">Find pages with...</span>
+				<span class="input-column-title-right">Do this in the search box.</span>
+			</div>
+
+			<div class="search-input-div">
+				<span class="input-name">all these words:</span>
+				<input class="search-entry" type="text" name="as_q">
+				<span class="input-description">
+					Type the important words:
+					<span class="input-description-example">
+						tri-colour rat terrier
+					</span>
+				</span>
+			</div>
+
+			<div class="search-input-div">
+				<span class="input-name">this exact word or phrase:</span>
+				<input class="search-entry" type="text" name="as_epq">
+				<span class="input-description">
+					Put exact words in quotes:
+					<span class="input-description-example">
+						"rat terrier"
+					</span>
+				</span>
+			</div>
+
+			<div class="search-input-div">
+				<span class="input-name">any of these words:</span>
+				<input class="search-entry" type="text" name="as_oq">
+				<span class="input-description">
+					Type OR between all the words you want:
+					<span class="input-description-example">
+						miniature OR standard
+					</span>
+				</span>
+			</div>
+
+			<div class="search-input-div">
+				<span class="input-name">none of these words:</span>
+				<input class="search-entry" type="text" name="as_eq">
+				<span class="input-description">
+					Put a minus sign just before words that you don't want
+					<span style="display: block;" class="input-description-example">
+						-rodent, -"Jack Russell"
+					</span>
+				</span>
+			</div>
+
+			<div class="search-input-div">
+				<div class="input-name"></div>
+				<input class="advanced-search-button" type="submit" value="Advanced Search">
+				<span class="input-description"></span>
+			</div>
+		</form>
+        
+  </body>
+</html>

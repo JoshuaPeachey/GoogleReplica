@@ -1,0 +1,98 @@
+.logo-small {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 70px;
+}
+
+#title {
+    color: rgb(226, 2, 2);
+    font-weight: normal;
+    font-size: 20px;
+
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 22px;
+}
+
+.advanced-search-form {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    padding-left: 35px;
+    padding-top: 50px;
+    border-color: rgb(239, 239, 239);
+    position: relative;
+}
+
+.search-input-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1300px;
+    padding-bottom: 14px;
+}
+
+.input-column-title-left {
+    font-size: 16px;
+}
+
+.input-column-title-right {
+    right: 0px;
+    color: rgb(110, 109, 109);
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 130px;
+}
+
+
+
+.input-name {
+    font-size: 12px;
+    width: 180px;
+}
+
+.search-entry {
+    flex: 1;
+    height: 22px;
+    outline: none;
+    border-width: 1px;
+}
+
+.search-entry:hover {
+    cursor: auto;
+}
+
+.search-entry:focus {
+    border-color: rgb(49, 131, 204);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2)
+}
+
+.input-description {
+    font-size: 11px;
+    padding-left: 5px;
+    /* margin-left: 30px; */
+    width: 350px;
+    max-width: 350px;
+}
+
+.input-description-example {
+    font-family: 'Space Mono';
+    font-size: 11px;
+}
+
+.advanced-search-button {
+    color: white;
+    background-color: rgb(24, 116, 208);
+    border: none;
+    font-size: 12px;
+    padding: 8px 12px;
+    opacity: 0.9;
+    transition: opacity 0.15s;
+}
+
+.advanced-search-button:hover {
+    opacity: 1;
+}
